@@ -130,3 +130,32 @@ eg：`wxdump.exe merge -i "C:\Users\user\Desktop\decrypted\MSG0.db,C:\Users\user
 如果实在还有疑问，更加建议提交issues。
 
 如果还是想添加qq群，那么关注公众号：`逍遥之芯`，回复`qq群密码`即可获取qq群密码。（因为qq群又快满了，群主又没钱买vip，所以只能这样了）
+
+### 十九、是否可以查看别人的聊天记录
+
+不可以，只能看到有密钥的数据库的聊天记录，如果你有别人的密钥，那么可以查看别人的聊天记录。
+
+### 二十、不登录微信，能获取到密钥吗
+
+不能，必须登录微信才能获取到密钥。
+但是可以保存密钥，下次再次使用时候，不需要登录即可。
+
+### 二十一、打开浏览器页面空白
+
+https://blog.csdn.net/qq_46106285/article/details/124749512 
+根据这个链接进行修复
+
+### 二十二、关于打包exe文件
+
+参看[UserGuide](./UserGuide.md)中的打包exe文件部分
+本项目具体打包流程，参看[../.github/workflows/publish.yml](../.github/workflows/publish.yml)文件
+
+### 二十三、关于系统支持版本
+
+1. Windows 10 64位及以上
+2. python 3.8及以上
+3. 其他版本遇到错误需要自行解决
+
+### 二十四、实时聊天记录怎么获取
+
+1. `/api/realtimemsg`接口，更新最新数据到数据库中
